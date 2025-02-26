@@ -1,0 +1,6 @@
+n=int(input("so hoc sinh"))
+k=int(input("so man"))
+a = k//n
+b = (k%n) 
+print("so man moi hoc sinh se nhan la", a)
+print("so man rieng hoc sinh nu se nhan la", b)
