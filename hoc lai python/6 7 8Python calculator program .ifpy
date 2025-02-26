@@ -1,0 +1,17 @@
+#https://youtu.be/BX6_YBPr7Jw?list=PLZPZq0r_RZOOkUQbat8LyQii36cJf2SWT
+a = input("Enter an operator( + - * /):  ")
+n1 = float(input())
+n2 = float(input())
+
+if a == "+":
+    kq = n1 + n2
+    print(f"ket qua cua ban la {round(kq,2)}")
+elif a == "-":
+    kq = n1 - n2
+    print(f"ket qua cua ban la {round(kq,2)}")
+elif a == "*":
+    kq = n1 * n2
+    print(f"ket qua cua ban la {round(kq,2)}")
+elif a == "/":
+    kq = n1 / n2
+    print(f"ket qua cua ban la {round(kq,2)}")
