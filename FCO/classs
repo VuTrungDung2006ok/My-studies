@@ -1,0 +1,19 @@
+class Sophuc:
+    a = 0
+    b = 0 #a va b la hai so phuc
+    def __init__(self,x=0,y=0):
+        self.a = x
+        self.b = y
+
+    def __add__(self,sp):
+        x = self.a + sp.a
+        y = self.b + sp.b
+        return Sophuc(x,y)
+    
+    def __str__(self):
+        return f"{self.a} + {self.b}i "
+    
+sp1 = Sophuc(1,2)
+sp2 = Sophuc(2,-3)
+sp3 = sp1 + sp2
+print(sp3)
